@@ -43,9 +43,11 @@ const renderSinglePuppy = (clickedPuppy) => {
   });
   
   const html = `
-    <h2>${clickedPuppy}</h2>
-    <h3>${foundPuppy.breed}</h3>
-    <img src= "${foundPuppy.imageUrl}" alt="puppy" />
+    <div>
+      <h2>${clickedPuppy}</h2>
+      <h3>${foundPuppy.breed}</h3>
+      <img src= "${foundPuppy.imageUrl}" alt="puppy" />
+    </div>
 
     <button>Back</button>
   `;
