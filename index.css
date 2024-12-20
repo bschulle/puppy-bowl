@@ -19,3 +19,9 @@ div {
   border-radius: 5px;
   background-color: dodgerblue;
 }
+
+button {
+  background-color: palevioletred;
+  padding: 15px 32px;
+
+}
